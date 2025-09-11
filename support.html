@@ -6,28 +6,68 @@
   <title>Cloud Exams Support</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 600px;
-      margin: 50px auto;
-      padding: 20px;
-      line-height: 1.6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      padding: 40px;
+      max-width: 500px;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    img.logo {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
     }
     h1 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+      color: #111;
+    }
+    p {
+      font-size: 1em;
+      margin: 10px 0 20px;
       color: #333;
     }
     a {
-      color: #007AFF;
+      color: #007aff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      font-size: 0.8em;
+      color: #888;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
-  <h1>Cloud Exams Support</h1>
-  <p>Welcome! If you need help with <strong>Cloud Exams</strong>, please reach out to us:</p>
-  <ul>
-    <li>Email: <a href="mailto:jackfinapps@gmail.com">jackfinapps@gmail.com</a></li>
-  </ul>
-  <p>We usually reply within 24–48 hours.</p>
-  <hr>
-  <p>&copy; 2025 Jackfin Apps. All rights reserved.</p>
+  <div class="container">
+    <!-- App logo -->
+    <img src="logo.png" alt="Cloud Exams Logo" class="logo">
+
+    <h1>Cloud Exams Support</h1>
+    <p>If you need help with <strong>Cloud Exams</strong>, you can reach us at:</p>
+    <p>
+      <a href="mailto:jackfinapps@gmail.com">jackfinapps@gmail.com</a>
+    </p>
+    <p>We usually reply within 24–48 hours.</p>
+
+    <footer>
+      &copy; 2025 Jackfin Apps. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
